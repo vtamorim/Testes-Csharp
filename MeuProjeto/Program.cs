@@ -78,6 +78,15 @@ namespace Program
 
                     Pessoa pessoa = new Pessoa(nome!, idade, fone!);
                     lista.Add(pessoa.Dados);
+
+                    Console.WriteLine("Lista de Pessoas Agora: " + lista);
+
+                    Console.WriteLine("Quer Continuar? S para Sim/N para Não");
+                    string escolha = Console.ReadLine();
+                    if (!string.IsNullOrEmpty(escolha))
+                    {
+                        char hm = escolha[0];
+                    }
                 }
                 catch (System.Exception)
                 {
