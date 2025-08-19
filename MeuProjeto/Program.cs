@@ -1,4 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
+
+
 using System;
 namespace Program
 {
@@ -7,11 +10,14 @@ namespace Program
         private string nome;
         private int idade;
         private string fone;
+
+        private string dados;
         public Pessoa(string Nome, int Idade, string fone)
         {
             this.nome = Nome;
             this.idade = Idade;
             this.fone = fone;
+            this.dados = "Nome: " + this.nome + " Idade: " + this.idade + " Fone: " + this.fone;
         }
         public string Nome
         {
@@ -28,7 +34,8 @@ namespace Program
             set
             {
                 idade = value;
-            }}
+            }
+        }
         public string Fone
         {
             get { return fone; }
@@ -37,25 +44,52 @@ namespace Program
                 fone = value;
             }
         }
-        public ToString()
+        public string Dados
         {
-            return "Nome: " + nome + "\nIdade: " + idade + "\nFone: " + fone;
+            get { return dados; }
+
+            set
+            {
+                dados = value;
+            }
         }
+
     }
-    class Main
+    class Program
     {
         public static void Main(string[] args)
         {
+            var lista = new List<String>{};
 #pragma warning disable IDE0090 // Usar 'new(...)'
-            Pessoa First = new Pessoa();
-            First.Nome = "Viktor";
-            First.Idade = 24;
-            First.Fone = "(84) 91234-5678";
+            while (true)
+            {
+                try
+                {
+
+                    Console.WriteLine("Insira seu Nome:");
+                    string? nome = Console.ReadLine();
+
+                    Console.WriteLine("Insira sua Idade");
+                    int idade = Convert.ToInt32(Console.ReadLine());
 
 
-            Console.WriteLine(First.Nome);
-            Console.WriteLine(First.Idade);
-            Console.WriteLine(First.Fone);
+                    Console.WriteLine("Insira seu Fone");
+                    string? fone = Console.ReadLine();
+
+                    Pessoa pessoa = new Pessoa(nome!, idade, fone!);
+                    lista.Add(pessoa.Dados);
+                }
+                catch (System.Exception)
+                {
+                    Console.WriteLine("É serio isso?");
+                    throw;
+                }
+
+
+
+            }
+
+
         }   
     }
 }
