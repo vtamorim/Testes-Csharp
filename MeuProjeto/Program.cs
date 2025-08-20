@@ -82,10 +82,24 @@ namespace Program
                     Console.WriteLine("Lista de Pessoas Agora: " + lista);
 
                     Console.WriteLine("Quer Continuar? S para Sim/N para Não");
-                    string escolha = Console.ReadLine();
+                    string? escolha = Console.ReadLine();
                     if (!string.IsNullOrEmpty(escolha))
                     {
                         char hm = escolha[0];
+                        if (hm == 'S')
+                        {
+                            continue;
+                        }
+                        else
+                        {
+                            break;
+                        }
+                        ;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Deu ruim");
+                        break;
                     }
                 }
                 catch (System.Exception)
