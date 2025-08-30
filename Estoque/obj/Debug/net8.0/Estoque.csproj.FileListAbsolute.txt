@@ -1,0 +1,15 @@
+/workspaces/Testes-Csharp/Estoque/obj/Debug/net8.0/Estoque.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Testes-Csharp/Estoque/obj/Debug/net8.0/Estoque.AssemblyInfoInputs.cache
+/workspaces/Testes-Csharp/Estoque/obj/Debug/net8.0/Estoque.AssemblyInfo.cs
+/workspaces/Testes-Csharp/Estoque/obj/Debug/net8.0/Estoque.csproj.CoreCompileInputs.cache
+/workspaces/Testes-Csharp/Estoque/obj/Debug/net8.0/Estoque.sourcelink.json
+/workspaces/Testes-Csharp/Estoque/bin/Debug/net8.0/Estoque
+/workspaces/Testes-Csharp/Estoque/bin/Debug/net8.0/Estoque.deps.json
+/workspaces/Testes-Csharp/Estoque/bin/Debug/net8.0/Estoque.runtimeconfig.json
+/workspaces/Testes-Csharp/Estoque/bin/Debug/net8.0/Estoque.dll
+/workspaces/Testes-Csharp/Estoque/bin/Debug/net8.0/Estoque.pdb
+/workspaces/Testes-Csharp/Estoque/obj/Debug/net8.0/Estoque.dll
+/workspaces/Testes-Csharp/Estoque/obj/Debug/net8.0/refint/Estoque.dll
+/workspaces/Testes-Csharp/Estoque/obj/Debug/net8.0/Estoque.pdb
+/workspaces/Testes-Csharp/Estoque/obj/Debug/net8.0/Estoque.genruntimeconfig.cache
+/workspaces/Testes-Csharp/Estoque/obj/Debug/net8.0/ref/Estoque.dll
