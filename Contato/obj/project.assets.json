@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/Testes-Csharp/MeuProjeto/MeuProjeto.csproj",
-      "projectName": "MeuProjeto",
-      "projectPath": "/workspaces/Testes-Csharp/MeuProjeto/MeuProjeto.csproj",
+      "projectUniqueName": "/workspaces/Testes-Csharp/Contato/Contato.csproj",
+      "projectName": "Contato",
+      "projectPath": "/workspaces/Testes-Csharp/Contato/Contato.csproj",
       "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/Testes-Csharp/MeuProjeto/obj/",
+      "outputPath": "/workspaces/Testes-Csharp/Contato/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/codespace/.nuget/NuGet/NuGet.Config"
